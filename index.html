@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: #eaf2f8;">
+    <div class="container-fluid" >
+        <div class="row mx-auto">
+          <div class="col-sm-2"></div>
+            <div class="col-sm-5" style="margin-top: 200px;">
+              <h1 class="text-primary fw-bold" id="facebook">facebook</h1>
+              <h3 class="">Facebook helps you connect and share with people.</h3>
+            </div>
+            <div class="col-sm-4 rounded-4 bg-light shadow " id="form"> 
+              <input type="email" class="form-control  mt-3 py-3" placeholder="Email or phone number"/>
+              <input type="password" class="form-control mt-3 py-3" placeholder="password"/>
+              <input type="submit" class="form-control my-3 py-3 bg-primary text-light" value="login"/>
+             <a href="#" class="text-decoration-none fs-5"  id="forget">Forget Password ?</a>
+            <hr class="hr mx-2" />
+            <button type="button" class="btn btn-success my-4 py-3"  id="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Create a new account
+            </button>
+            </div>
+            
+            <div class="col-sm-1"></div>
+        </div>
+        <div style="margin-left: 950px; margin-top: 30px;">
+        <p ><a href="#" class="text-dark text-decoration-none fw-semibold">Create a page</a> for a celebrity, brand or business.</p>
+      </div>
+    </div>
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-3 fw-bold w-100 text-center" id="exampleModalLabel">Create a new account
+            <br/><p class="fs-6 text-secondary" style="margin-top: -5px;">Quick and easy</p>
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control py-2" placeholder=" Name" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control py-2" placeholder=" surname" aria-label="Last name">
+              </div>
+              <div class="row mt-3 ms-1">
+                <label for="b" class="form-label">Birthday</label>
+                <input type="date" id="b" class="form-control py-2" placeholder=" date" aria-label="Last name">
+              </div>
+              <div class="row mx-auto mt-3">
+                <div class="col-md-3 ms-3 form-check border rounded">
+                  <!-- <label for="w" class="Form-check-label py-2 ms-2 mt-1">Women</label> -->
+                   Women
+                  <input type="radio" class="form-check-input " id="w">
+                </div>
+                <div class="col-md-3 ms-3 form-check border rounded">
+                  <label for="m" class="form-check-label ms-2 mt-3">male</label>
+                  <input type="radio" class="form-check-input ms-1 mt-3" id="m">
+                </div>
+                <div class="col-md-3 ms-3 form-check border rounded">
+                  <label for="c" class="form-check-label ms-2 mt-3 ">Custom</label>
+                  <input type="radio" class="form-check-input " id="c">
+                </div>
+              </div>
+              <div class="row mt-3 ms-2">
+                <input type="email" class="form-control py-2" placeholder="email or phone number" aria-label="First name">
+              </div>
+              <div class="row mt-3 ms-2">
+                <input type="password" class="form-control py-2" placeholder="new password" aria-label="First name">
+              </div>
+              <small class="text-justify mt-3 ms-2">Your contact information may have been uploaded to Facebook by people who use our service. <span class="text-primary">Learn more</span></small>
+            <small class="text-justify mt-3 ms-2">Clicking Sign Up means you agree to our <span class="text-primary">Terms , Privacy Policy </span>and <span class="text-primary">Cookie Policy</span> . You may receive SMS notifications from us. You can opt out at any time.</small>
+            <div class="mt-3 " style="margin-left: 200px;">
+              <button type="button" class="btn btn-success btn-lg fs-5">Sign in</button>
+            </div>
+            <a href="" class="text-decoration-none mt-3 fs-5" style="margin-left: 150px; margin-bottom: 10px;">Already have an account?</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</body>
+</html>
